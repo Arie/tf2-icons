@@ -1,0 +1,10 @@
+# Docker ignore file
+.git/
+.gitignore
+dist/
+community/
+*.pyc
+__pycache__/
+.venv/
+*.md
+!README.md

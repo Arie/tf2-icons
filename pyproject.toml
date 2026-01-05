@@ -1,0 +1,13 @@
+[project]
+name = "tf2-icons"
+version = "0.1.0"
+description = "Generate TF2 killicon sprite sheets from VPK files"
+requires-python = ">=3.10"
+dependencies = [
+    "vpk>=1.4.0",
+    "srctools>=2.3.0",
+    "Pillow>=10.0.0",
+]
+
+[project.scripts]
+tf2-icons = "generate:main"
