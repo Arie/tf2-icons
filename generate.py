@@ -96,6 +96,20 @@ WEAPON_MAPPINGS = {
     'conscientious_objector': 'nonnonviolent_protest',
     # Taunts
     'taunt_guitar_kill': 'taunt_guitar_kill',
+    'taunt_engineer': 'wrench',
+    # Buildings (case-insensitive variants)
+    'OBJ_ATTACHMENT_SAPPER': 'obj_attachment_sapper',
+    'OBJ_SENTRYGUN': 'obj_sentrygun',
+    # Projectile class names
+    'tf_projectile_flare': 'flaregun',
+    'tf_projectile_healing_bolt': 'crusaders_crossbow',
+    'tf_projectile_sentryrocket': 'obj_sentrygun',
+    'tf_weapon_grenadelauncher': 'tf_projectile_pipe',
+    # Gas/jar variants
+    'jar_gas': 'gas_blast',
+    # Environmental/fallback
+    'unknown': 'skull',
+    'prop_physics': 'skull',
     # Other
     'backscatter': 'back_scatter',
     'nessie_club': 'nessieclub',
