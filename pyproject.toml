@@ -11,3 +11,17 @@ dependencies = [
 
 [project.scripts]
 tf2-icons = "generate:main"
+tf2-backpack = "backpack:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["generate", "backpack"]

@@ -221,3 +221,14 @@ If the generated files have wrong permissions, you can change ownership:
 sudo chown -R $USER:$USER dist/
 ```
 
+
+## Backpack pictures
+
+`tf2-backpack` writes every backpack picture (64 px high, trimmed WebP) plus `items.json`
+(item definition index to picture name) to `dist/backpack/`. Copy `items_game.txt` from a
+TF2 server (`tf/scripts/items/items_game.txt`) first:
+
+```bash
+uv run tf2-backpack --items-game items_game.txt [--out dist/backpack]
+uv run pytest
+```
